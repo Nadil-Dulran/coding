@@ -1,2 +1,2 @@
 # coding
-Just for code samples
+Just code samples for practice.
