@@ -13,6 +13,9 @@ class Main{
     
     Integer max= Collections.max(numbers);
     System.out.println("Max element in the List: " +max);
+
+    Integer min= Collections.min(numbers);
+    System.out.println("Min element in the List:" +min);
     
     for(int i=0; i<numbers.size(); i++){
         sum+=numbers.get(i);
