@@ -8,19 +8,20 @@ class Solution {
 
         // Assume first element is maximum
         int max = arr[0];
-        int test=0;
+        int test= arr[0];
 
 
         for(Integer i=0; i<arr.length; i++){
           if(max<arr[i]){
             max=arr[i];
-            test=arr[i-1];
-
           }
+        else if (arr[i] > test && arr[i] != max) {
+                test = arr[i];  // update second max
+            }
         }
 
         // Print result
         System.out.println("Maximum element in the array is: " + max);
-          System.out.println("Maximum -1 element in the array is: " +test);
+          System.out.println("Second Maximum element in the array is: " +test);
     }
 }
