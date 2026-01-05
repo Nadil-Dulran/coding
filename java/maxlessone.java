@@ -1,10 +1,13 @@
-
+import java.util.Arrays;
 
 class Solution {
     public static void main(String[] args) {
         
         // Define an array
         int[] arr = {12, 45, 7, 89, 23, 56};
+
+        // Normal Array
+        System.out.println("Array:" +Arrays.toString(arr));
 
         // Assume first element is maximum
         int max = arr[0];
