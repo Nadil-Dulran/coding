@@ -1,4 +1,4 @@
-# coding 
+# Coding 🧑🏻‍💻
 
 Code samples for practice across multiple languages (C, Java, PHP, Python).
 
@@ -51,4 +51,4 @@ docker run --rm -v "$PWD/php":/app -w /app php:8.2-cli php devide.php
 
 ## Notes
 - Samples are intentionally simple and self-contained.
-- Add your own files under the corresponding language folder and follow the same run patterns.
+- Can add files under the corresponding language folder and follow the same run patterns.
