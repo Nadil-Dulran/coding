@@ -7,7 +7,6 @@ Code samples for practice across multiple languages (C, Java, PHP, Python).
 - Java: JDK (e.g., 17+)
 - Python: Python 3
 - PHP: PHP CLI
-	- Optional: Docker (to run PHP without local install)
 
 ## Run Examples
 
